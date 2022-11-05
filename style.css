@@ -5,73 +5,8 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
-img{
-height: 100px;
-}
-.box1, .box2, .box3{
-    display: inline-flex;
-    vertical-align: top;
-  }
-  
-  .box1{ 
-      
-      width: 210px;
-      height: 350px;
-      background-color:white;
-      border-style:outset;
-      margin: 25px;
-      }
-   .box1 header{
-          position: absolute;
-          background-color: #131c27;
-          height: 3rem;
-          width: 13rem;
-          
-      }
-     
-  .box2{
-      width: 210px;
-      height: 350px;
-      background-color:rgb(255, 255, 255);
-      border-style:outset;
-      margin: 25px;
-  }
-  .box2 header{
-      position: absolute;
-      background-color: #131c27;
-      height: 3rem;
-      width: 13rem;
-  }
-  .box3{
-      width: 210px;
-      height: 350px;
-      background-color:rgb(255, 255, 255);
-      border-style:outset;
-      margin: 25px;
-  }
-  .box3 header{
-      position: absolute;
-      background-color: #131c27;
-      height: 3rem;
-      width: 13rem;
-  }
-  .box-info{
-      text-align:center;
-      box-sizing: border-box;     
-      height: 100vh; 
-      width: 100vw;
-      margin-top: 10%;
-      
-  }
-  .box-info p1{
-      position: relative;
-      top: 9rem;
-      display:flex;
-      justify-content: center;
-      text-align: center;
-  }
+
 
 nav{
   display: flex;
@@ -100,10 +35,119 @@ nav ul a{
     font-size: 1.5rem;
 }
 .sec1{
-    background-image: url(img/landing-page.jpg);
+    background-image: url(img/landing.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+.sec1 h1{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+}
+.sec1 p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.btn{ 
+    padding: 10px;
+    margin-left: 40rem;
+    margin-top: 30px;   
+}
+.btn:hover{
+    background-color: #40534e;
+}
+.sec2{
+    background-image: url(img/newyork.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.sec2 h1{
+    padding-top: 10rem;
+    padding-left: 60px;
+    
+}
+.sec2 p{
+    padding-top: 5px;
+    padding-left: 60px;
+}
+.sec3{
+    background-color: #131c27;
+    padding: 10px;
+}
+.sec3 h1{
+ text-align: center;
+ color: white;
+}
+.sec3 p{
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+.box1, .box2, .box3{
+  display: inline-flex;
+  vertical-align: top;
+}
+
+.box1{ 
+    
+    width: 210px;
+    height: 350px;
+    background-color:white;
+    border-style:outset;
+    margin: 25px;
+    }
+ .box1 header{
+        position: absolute;
+        background-color: #131c27;
+        height: 3rem;
+        width: 13rem;
+        
+    }
+   
+.box2{
+    width: 210px;
+    height: 350px;
+    background-color:rgb(255, 255, 255);
+    border-style:outset;
+    margin: 25px;
+}
+.box2 header{
+    position: absolute;
+    background-color: #131c27;
+    height: 3rem;
+    width: 13rem;
+}
+.box3{
+    width: 210px;
+    height: 350px;
+    background-color:rgb(255, 255, 255);
+    border-style:outset;
+    margin: 25px;
+}
+.box3 header{
+    position: absolute;
+    background-color: #131c27;
+    height: 3rem;
+    width: 13rem;
+}
+.box-info{
+    text-align:center;
+    box-sizing: border-box;     
+    height: 100vh; 
+    width: 100vw;
+    margin-top: 10%;
+    
+}
+.box-info p1{
+    position: relative;
+    top: 9rem;
+    display:flex;
+    justify-content: center;
+    text-align: center;
 }
 .icon1{
     height:38px;
@@ -137,54 +181,6 @@ nav ul a{
     margin-left: 5rem;
     padding: 10px;    
 }
-.btn{ 
-    padding: 10px;
-    margin-left: 37rem;
-    margin-top: 30px;   
-}
-.btn:hover{
-    background-color: #384844;
-}
-.sec2{
-    background-image: url(img/new-york-page.png);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-color: rgb(222, 222, 222);
-}
-.sec2 h1{
-    padding-top: 10rem;
-    padding-left: 60px;
-    
-}
-.sec2 p{
-    padding-top: 5px;
-    padding-left: 60px;
-}
-.sec3{
-    background-color: #131c27;
-    padding: 10px;
-}
-.sec3 h1{
- text-align: center;
- color: white;
-}
-.sec3 p{
-    text-align: center;
-    color: white;
-    padding: 15px;
-}
-.sec1 h1{
-    text-align: center;
-    color: white;
-    padding-top: 200px;
-}
-.sec1 p{
-    text-align: center;
-    margin-top: 10px;
-    color: white;
-}
-
 
 .box1 h2{     
     position: absolute;
@@ -207,23 +203,10 @@ nav ul a{
 .contact-box{
     width: 500px;
     height:300px ;
-    box-shadow:#384844;
+    box-shadow:#40534e;
     top:50%;
     left:50%;
     
-}
-.icons {
-    display: flex;
-    margin-left: 60rem;
-    
- }
- .icon1, .icon2, .icon3 {
-    display: flex;
-    height: 5vh;
- }
-
-.footer h2 {
-    margin-left: 4rem; 
 }
 form{
     margin: 30px;
@@ -237,7 +220,7 @@ form{
     height: 40px;
     margin-top: 20px;
     padding-left: 10px;
-    border: 1px solid rgb(102, 101, 101);
+    border: 1px solid #777;
     border-radius: 14px;
     outline: none;
     position: relative;
@@ -248,13 +231,14 @@ form{
     left: 18%;
     font-size: 15px; 
     width: 8vw;
+    
+    
 }
 .contact-box h2{
     text-align: center;
 }
 .contact-box{
-    background-image: url(img/contact-mountain.png);
-    background-color: rgb(226, 213, 213);
+    background-image: url(img/mountin.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -270,7 +254,19 @@ form{
     align-items: center;
     
 }
+.icons {
+    display: flex;
+    margin-left: 60rem;
+    
+ }
+ .icon1, .icon2, .icon3 {
+    display: flex;
+    height: 5vh;
+ }
 
+.footer h2 {
+    margin-left: 4rem; 
+}
 
    
 
@@ -300,13 +296,36 @@ nav ul a{
     text-decoration: none;
     color: white;
 }
+.btn{ 
+    position: absolute;
+    padding: 10px;
+    margin-top: 30px; 
+    margin-left: 15rem;  
+}
 
+.contact-box{
+    position:relative;
+    width: 250px;
+    height:150px ;
+    box-shadow:#40534e;
+    top:50%;
+    left:50%;
+    
+}
+form{
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    margin-left: 5rem;
+}
 .input-field{
+
     width: 200px;
     height: 20px;
     margin-top: 10px;
     padding-left: 5px;
-    border: 1px solid rgb(114, 114, 114);
+    border: 1px solid #777;
     border-radius: 14px;
     outline: none;
     position: relative;
@@ -321,7 +340,7 @@ nav ul a{
     
 }
 .contact-box{
-    background-image: url(img/contact-mountain.png);
+    background-image: url(img/mountin.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -337,30 +356,6 @@ nav ul a{
     left: 18%;
     
 }
-.btn{ 
-    position: absolute;
-    padding: 10px;
-    margin-top: 30px; 
-    margin-left: 15px;
-    
-}
-
-.contact-box{
-    position:relative;
-    width: 250px;
-    height:150px ;
-    box-shadow:#3a4a46;
-    top:50%;
-    left:50%;
-    
-}
-form{
-    position: relative;
-    margin: 10px;
-    text-align: center;
-    display: flex;
-    margin-left: 5rem;
-}
 .footer {
     position: relative;
     display:flex;
@@ -369,6 +364,7 @@ form{
     color: white;
     background-color:#131c27;
     align-items: center;
+    
 }
 .icons {
     display: flex;
@@ -381,7 +377,7 @@ form{
  }
 
 .footer h2 {
-    margin-left: 4rem; 
+    margin-left: 2rem; 
 }
 
 
